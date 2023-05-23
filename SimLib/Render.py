@@ -142,7 +142,7 @@ class NBodyRender(Render):
         
     '''
     
-    def __init__(self, colors, sizes, scale = [150, 150], offset = [550, 275]):
+    def __init__(self, colors, sizes, scale = [150, 150], offset = [400, 300]):
         self.colors = colors
         self.sizes = sizes
         super().__init__(scale, offset)

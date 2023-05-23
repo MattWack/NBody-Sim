@@ -7,7 +7,6 @@ differential equation solving classes derived from Solver.
 """
 import Vector as vc
 import numpy as np
-import scipy.constants as c
 class Physics(object):
     """Base class for Physics objects. 
     
